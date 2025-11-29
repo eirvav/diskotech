@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="fixed bottom-0 left-0 w-full z-50 pb-6">
+    <footer className="fixed bottom-0 left-0 w-full z-50 pb-4">
       <div className="container mx-auto px-4">
         <div className="flex justify-center items-center gap-8">
           <a
@@ -89,11 +89,6 @@ const Footer = () => {
               <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
             </svg>
           </a>
-        </div>
-        <div className="mt-6 text-center">
-          {/* <p className="text-sm text-white/80"> */}
-            {/* © 2025 Diskotech. All rights reserved. */}
-          {/* </p> */}
         </div>
       </div>
     </footer>

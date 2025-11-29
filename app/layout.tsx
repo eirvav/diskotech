@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
-//import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 const spaceGrotesk = Space_Grotesk({
@@ -14,9 +14,13 @@ export const metadata: Metadata = {
   title: "Diskotech",
   description: "Diskotech",
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png", // Ensure it works on Apple devices too
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-icon.png",
   },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -30,7 +34,7 @@ export default function RootLayout({
         className={`${spaceGrotesk.variable} antialiased`}
         style={{ fontFamily: 'var(--font-space-grotesk)' }}
       >
-        {/* <Navbar /> */}
+        <Navbar />
         {children}
         <Footer />
       </body>
