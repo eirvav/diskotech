@@ -11,8 +11,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Diskotech - Coming Soon",
-  description: "Something amazing is coming",
+  title: "Diskotech",
+  description: "Diskotech",
 };
 
 export default function RootLayout({
