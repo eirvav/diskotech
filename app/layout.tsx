@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} antialiased`}
+        className={`${spaceGrotesk.variable} antialiased overflow-hidden h-screen w-screen`}
         style={{ fontFamily: 'var(--font-space-grotesk)' }}
       >
         {/* <Navbar /> */}
