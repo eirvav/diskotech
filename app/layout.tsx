@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   description: "Diskotech",
   icons: {
     icon: "/logo.png",
+    apple: "/logo.png", // Ensure it works on Apple devices too
   },
 };
 
@@ -26,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} antialiased overflow-hidden h-screen w-screen`}
+        className={`${spaceGrotesk.variable} antialiased`}
         style={{ fontFamily: 'var(--font-space-grotesk)' }}
       >
         {/* <Navbar /> */}
