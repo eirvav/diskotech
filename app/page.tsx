@@ -54,7 +54,7 @@ export default function Home() {
         </div>
 
         <a
-          href="https://stiftelsenbergenkjott.ticketco.events/no/nb/e/kokekveld"
+          href="https://cornerteateret.ticketco.events/no/nb/e/diskotech_presenterer_kompis_cornerteateret"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white/20 backdrop-blur-md text-white px-10 py-4 rounded-full font-medium text-base tracking-[0.2em] uppercase hover:bg-white hover:text-black hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] transition-all duration-300"
