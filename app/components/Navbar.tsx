@@ -9,7 +9,7 @@ const Navbar = () => {
   const navItems = [
     { name: "EVENTS", href: "https://www.instagram.com/p/DQ4r1qniO92/" },
     { name: "ABOUT", href: "https://www.instagram.com/diskotech.no/" },
-    { name: "CONTACT", href: "mailto:pagani@diskotech.no" },
+    { name: "CONTACT", href: "mailto:eirik.vavik@hotmail.no" },
   ];
 
   const toggleMenu = () => {

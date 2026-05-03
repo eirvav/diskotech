@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
 import { useEffect, useRef } from "react";
 
 export default function Home() {
@@ -43,7 +43,7 @@ export default function Home() {
 
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center gap-8 sm:gap-10 md:gap-12 px-4">
-        <div className="relative w-[480px] h-[160px] lg:w-[960px] lg:h-[320px]">
+        {/* <div className="relative w-[480px] h-[160px] lg:w-[960px] lg:h-[320px]">
           <Image
             src="/logo.png"
             alt="Diskotech Logo"
@@ -51,7 +51,7 @@ export default function Home() {
             className="object-contain"
             priority
           />
-        </div>
+        </div> */}
 
         <a
           href="https://cornerteateret.ticketco.events/no/nb/e/diskotech_presenterer_kompis_cornerteateret"
